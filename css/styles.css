@@ -1,0 +1,371 @@
+
+/***** Navigation *****/
+
+.nav {
+    height: 106px;
+    background-color: #acd373;
+}
+.nav nav {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.nav img {
+    display: inline-block;
+}
+.nav ul {
+    text-align: right;
+}
+.nav ul li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    text-align: right;
+}
+.nav a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: #f7f7f7; 
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+.nav li:hover {
+    border-bottom: 3px #f7f7f7 solid;
+}
+
+/***** Header *****/
+
+.call {
+    height:700px;
+    background-color: #9abd67;
+}
+h1 {
+    font-family: 'source sans pro', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 200px;
+}
+h2 {
+    font-family: 'droid serif', serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    color: #f7f7f7;
+    text-align: center;
+    padding-top: 30px;
+}
+img.arrow {
+    display: block;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+.skyline {
+    width: 100%;
+}
+
+/***** About *****/
+.about {
+    background-color: #f7f7f7;
+    height: 575px;
+}
+.aboutContent {
+    max-width: 1000px;
+}
+h3 {
+    font-family: 'source sans pro', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #454545;
+    text-transform: uppercase;
+}
+p {
+    font-family: 'source sans pro', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #454545;
+}
+
+/***** Video Banner *****/
+
+.videoBanner, .testimonialBanner {
+    width: 100%;
+}
+
+/***** Services *****/
+
+.services {
+    background-color: #f7f7f7;
+}
+
+.services h3, .work h3, .blog h3 {
+    text-align: center;
+}
+
+.services span, .work span {
+    color: #acd373;
+}
+.quote {
+    font-family: 'droid serif', serif;
+    font-size: 18px;
+    color: #454545;
+    text-align: center;
+    padding-top: 20px;
+}
+img.spacer {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+h5 {
+    font-family: 'source sans pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #acd373;
+    text-transform: uppercase;
+}
+.services a {
+    font-family: 'droid serif', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #acd373;
+    padding: 15px;
+    border: solid #acd373 1px;
+    text-transform: none;
+}
+.btn {
+    margin: 0 auto;
+}
+.servicesBlock {
+    width: 375px;
+    margin: 0 20px 90px 0;
+    display: inline-block;
+}
+
+/***** Team *****/
+.team {
+    background-color: #acd373;
+    height: 650px;
+}
+.team h3, .contact h3 {
+    color: #f7f7f7;
+    text-align: center;
+}
+.white {
+    color: #f7f7f7;
+}
+.teamBlock {
+    display: inline-block;
+    width: 270px;
+    height: 250px;
+    margin-right: 28px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+img.teamPic {
+    margin-top: -75px;
+    margin-left: 60px;
+    text-align: center;
+}
+.teamBlock h5 {
+    text-align: center;
+    padding-top: 28px;
+}
+.teamBlock p {
+    font-family: 'droid serif', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    color: #787878;
+    padding-top: 20px;
+}
+/***** Job *****/
+
+.jobBar, .newsletter {
+    height: 110px;
+    background-color: #91bd67;
+    text-align: center;
+    vertical-align: center;
+}
+.jobBar p {
+    font-family: 'source sans pro', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f7f7f7;
+    display: inline-block;
+    margin-right: 50px;
+}
+.jobBar a {
+    font-family: 'droid serif', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #f7f7f7;
+    padding: 10px;
+    border: solid #f7f7f7 1px;
+    text-transform: none;    
+}
+
+/***** Recent Work *****/
+
+.work {
+    background-color: #f7f7f7;
+}
+.workHalf {
+    width: 570px;
+    margin-right: 25px;
+    display: inline-block
+}
+.workThirds {
+    width: 370px;
+    margin-right: 27.5px;
+    display: inline-block;
+}
+h6 {
+    font-family: 'sans source pro', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #454545;
+    text-align: center;
+}
+.work p {
+    font-family: 'droid serif', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #787878;
+    text-align: center;
+}
+
+/***** Logo Bar *****/
+.logoBar {
+    height: 110px;
+    background-color: #ebebeb;
+    margin: 0 auto;
+}
+.logoBar ul {
+    text-align: center;
+}
+.logoBar img {
+    margin-right: 30px;
+}
+
+/***** Testimonials *****/
+
+/***** Blog *****/
+.blog {
+    background-color: #f7f7f7;
+    height: 
+}
+.blogBlock {
+    display: inline-block;
+    width: 270px;
+    margin-right: 25px;
+    vertical-align: top;
+}
+img.blogIcon {
+    margin-top: -30px;
+    margin-left: 105px;
+}
+.blogBlock p {
+    font-family: 'source sans pro', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #454545;
+    text-align: center;
+}
+
+/***** Newsletter *****/
+
+.newsletter p {
+    font-family: 'source sans pro', sans-serif;
+    font-size: 18px;
+    color: #f7f7f7;
+    display: inline-block;
+    margin-right: 50px;
+}
+.newsletter input {
+    height: 40px;
+    border: 1px solid #f7f7f7;
+    font-family: 'droid serif', serif;
+    font-size: 18px;
+    background-color: #9abd67;
+    font-style: italic;
+    color: #f7f7f7;
+}
+
+/***** Map *****/
+
+.map {
+    height: 500px;
+    width: 100%;
+}
+
+/***** Contact *****/
+.contact {
+    height: 750px;
+    background-color: #acd373;
+}
+.contact input, .contact textarea {
+    display: block;
+    width: 570px;
+    background-color: #9abd67;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 30px; 
+}
+.contact input {
+    height: 40px;
+}
+.contact textarea {
+    height: 150px;
+}
+.contact label {
+    font-family: 'source sans pro', sans-serif;
+    font-size: 18px;
+    color: #f7f7f7;
+    margin-bottom: 20px;
+}
+button {
+    background-color: #9abd67;
+    font-family: 'droid serif', serif;
+    font-size: 15px;
+    font-style: italic;
+    color: #f7f7f7;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    border: none;
+}
+
+/***** Footer *****/
+footer {
+    height: 100px;
+    background-color: #9abd67;
+}
+.footerContain {
+    width: 1165px;
+    margin: 0 auto;
+}
+footer p {
+    font-family: 'source sans pro', sans-serif;
+    font-size: 18px;
+    color: #f7f7f7;
+}
+
+
+/***** Generic *****/
+.content {
+    max-width: 1165px;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.last {
+    margin-right: 0;
+}
+
+

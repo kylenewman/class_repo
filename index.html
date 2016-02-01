@@ -2,161 +2,195 @@
 <html>
 <head>
     <title>Sixteen</title>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic|Source+Sans+Pro:400,900,700,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" /> 
 </head>
 <body>
-    <header>
-        <a href="index.html"><img src="img/logo.png" /></a>
-        
-        <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">team</a></li>
-            <li><a href="#">works</a></li>
-            <li><a href="#">client say</a></li>
-            <li><a href="#">blog</a></li>
-            <li><a href="#">contact</a></li>
-        </ul>
+    <header class="nav">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" /></a>
+
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">team</a></li>
+                <li><a href="#">works</a></li>
+                <li><a href="#">client say</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav
     </header>
     
-    <div>
+    <div class="call">
         <h1>We Are Sixteen Creative Agency</h1>
         <h2>Based on Jakarta, Indonesia</h2>
         
-        <img src="img/header-arrow.png" />
-        <img src="img/skyline.png" />
+        <img class="arrow" src="img/header-arrow.png" />
+        <img class="skyline" src="img/skyline.png" />
     </div>
     
-    <div>
-        <img src="img/about-icon.png" />
-        
-        <h3>Who we are</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quam in omnis voluptates, optio architecto doloremque eius, nihil, error nemo cum ad consequuntur numquam saepe quibusdam nam dolore sunt aliquam. Modi, ut error voluptas iure, nemo, est.
+    <div class="about">
+        <div class="content">
+            <img src="img/about-icon.png" />
 
-Tempora autem maiores laudantium excepturi quidem, quaerat consequuntur atque nam, voluptate molestiae in natus vel, sunt itaque ullam omnis, accusamus est hic. Ab praesentium dolor, iure ut aut quae distinctio quibusdam quo at dolorem saepe architecto, culpa voluptate qui facere blanditiis ducimus consectetur non</p>
-        
-        <a href="#">Learn More</a> 
-        <img src="img/iphone.png" />
+            <h3>Who we are</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quam in omnis voluptates, optio architecto doloremque eius, nihil, error nemo cum ad consequuntur numquam saepe quibusdam nam dolore sunt aliquam. Modi, ut error voluptas iure, nemo, est.
+
+    Tempora autem maiores laudantium excepturi quidem, quaerat consequuntur atque nam, voluptate molestiae in natus vel, sunt itaque ullam omnis, accusamus est hic. Ab praesentium dolor, iure ut aut quae distinctio quibusdam quo at dolorem saepe architecto, culpa voluptate qui facere blanditiis ducimus consectetur non</p>
+
+            <a href="#">Learn More</a> 
+            <img src="img/iphone.png" />
+        </div>
     </div>
     
-    <div>
-        <img src="img/banner_1_with_overlay.jpg" />
+    <div class="video">
+        <img class="videoBanner" src="img/banner_1_with_overlay.jpg" />
         <img src="img/play-button.png" />
     </div>
     
-    <div>
-        <h3>Our <span>Services</span></h3>
-        <p>“Asperiores ea commodi eius a quo omnis esse ”</p>
-        <img src="img/spacer-dark.png" />
-        
-        <img src="img/paintbrush-icon.png" />
-        <h5>Graphic Design</h5>
-        <p>Eius quae. Eveniet veniam repelledus eos, vitae repudiandae deleniti dol rum</p>
-        
-        <img src="img/mobile-icon.png" />
-        <h5>Mobile App Development</h5>
-        <p>Repellendus consequatur perferendis vitae neque eum similique possimus facilis</p>
-        
-        <img src="img/monitor-icon.png" />
-        <h5>Web Design & Development</h5>
-        <p>Einventore nesciunt velit voluptas ac santium harum temporibus</p>
-        
-        <img src="img/graphs-icon.png" />
-        <h5>SEO & Marketing</h5>
-        <p>Commodi nulla assumenda porro, inventore nesciunt velit voluptas</p>
-        
-        <img src="img/game-icon.png" />
-        <h5>Game Development</h5>
-        <p>Ipsa laboriosam error aut sit obcac
-ti, ea maiores ullam nihil et</p>
-        
-        <img src="img/heart-icon.png" />
-        <h5>Made with Love</h5>
-        <p>Eveniet veniam repellendus eos, vitae repudiandae deleniti dolorum</p>
-        
-        <a href="#">Learn More</a>
+    <div class="services">
+        <div class="content">
+            <h3>Our <span>Services</span></h3>
+            <p class="quote">&ldquo;Asperiores ea commodi eius a quo omnis esse&rdquo;</p>
+            <img class="spacer" src="img/spacer-dark.png" />
+            <div class="servicesBlock">
+                <img src="img/paintbrush-icon.png" />
+                <h5>Graphic Design</h5>
+                <p>Eius quae. Eveniet veniam repelledus eos, vitae repudiandae deleniti dol rum</p>
+            </div><div class="servicesBlock">
+            
+                <img src="img/mobile-icon.png" />
+                <h5>Mobile App Development</h5>
+                <p>Repellendus consequatur perferendis vitae neque eum similique possimus facilis</p>
+            </div><div class="servicesBlock last">
+            
+                <img src="img/monitor-icon.png" />
+                <h5>Web Design & Development</h5>
+                <p>Einventore nesciunt velit voluptas ac santium harum temporibus</p>
+            </div>
+
+            <div class="servicesBlock">
+                <img src="img/graphs-icon.png" />
+                <h5>SEO & Marketing</h5>
+                <p>Commodi nulla assumenda porro, inventore nesciunt velit voluptas</p>
+            </div><div class="servicesBlock">
+            
+                <img src="img/game-icon.png" />
+                <h5>Game Development</h5>
+                <p>Ipsa laboriosam error aut sit obcac
+        ti, ea maiores ullam nihil et</p>
+            </div><div class="servicesBlock last">
+            
+                <img src="img/heart-icon.png" />
+                <h5>Made with Love</h5>
+                <p>Eveniet veniam repellendus eos, vitae repudiandae deleniti dolorum</p>
+            </div>
+
+            <a class="bth" ref="#">Learn More</a>
+        </div>
     </div>
     
-    <div>
-        <h4>Meet Our Amazing Team</h4>
-        <p>“Asperiores ea commodi eius a quo omnis esse”</p>
-        <img src="img/spacer-white.png" />
-             
-        <img src="img/employee-1.png" />
-        <h5>John Doe</h5>
-        <p>CEO & Founder</p>
-        <img src="img/facebook-icon.png" />
-        <img src="img/twitter-icon.png" />
-        <img src="img/linkedin-icon.png" />
-        
-        <img src="img/employee-2.png" />
-        <h5>John Doe</h5>
-        <p>Art Director</p>
-        <img src="img/facebook-icon.png" />
-        <img src="img/twitter-icon.png" />
-        <img src="img/linkedin-icon.png" />
-        <img src="img/behance-icon.png" />
-        <img src="img/dribble-icon.png" />
-        
-        <img src="img/employee-3.png" />
-        <h5>John Doe</h5>
-        <p>Developer</p>
-        <img src="img/facebook-icon.png" />
-        <img src="img/twitter-icon.png" />
-        <img src="img/linkedin-icon.png" />
-        
-        <img src="img/employee-4.png" />
-        <h5>John Doe</h5>
-        <p>Designer</p>
-        <img src="img/facebook-icon.png" />
-        <img src="img/twitter-icon.png" />
-        <img src="img/linkedin-icon.png" />
-        <img src="img/deviantart-icon.png" /> 
+    <div class="team">
+        <div class="content">
+            <h3>Meet Our Amazing Team</h3>
+            <p class="quote white">&ldquo;Asperiores ea commodi eius a quo omnis esse&rdquo;</p>
+            <img class="spacer" src="img/spacer-white.png" />
+            <div class="teamBlock">
+                <img class="teamPic" src="img/employee-1.png" />
+                <h5>John Doe</h5>
+                <p>CEO & Founder</p>
+                <img src="img/facebook-icon.png" />
+                <img src="img/twitter-icon.png" />
+                <img src="img/linkedin-icon.png" />
+            </div><div class="teamBlock">    
+                
+                <img class="teamPic" src="img/employee-2.png" />
+                <h5>John Doe</h5>
+                <p>Art Director</p>
+                <img src="img/facebook-icon.png" />
+                <img src="img/twitter-icon.png" />
+                <img src="img/linkedin-icon.png" />
+                <img src="img/behance-icon.png" />
+                <img src="img/dribble-icon.png" />
+            </div><div class="teamBlock">
+                
+                <img class="teamPic" src="img/employee-3.png" />
+                <h5>John Doe</h5>
+                <p>Developer</p>
+                <img src="img/facebook-icon.png" />
+                <img src="img/twitter-icon.png" />
+                <img src="img/linkedin-icon.png" />
+            </div><div class="teamBlock last">
+            
+                <img class="teamPic" src="img/employee-4.png" />
+                <h5>John Doe</h5>
+                <p>Designer</p>
+                <img src="img/facebook-icon.png" />
+                <img src="img/twitter-icon.png" />
+                <img src="img/linkedin-icon.png" />
+                <img src="img/deviantart-icon.png" /> 
+            </div>
+        </div>
     </div>
-    
-    <div>
+
+    <div class="jobBar">
         <p>Are you the next? lets join us</p>
         <a href="#">We Are Hiring!</a>
     </div>
-    
-    <div>
-        <h3>Our Recent <span>Works</span></h3>
-        <p>“Asperiores ea commodi eius a quo omnis esse”</p>
-        <img src="img/spacer-dark.png" />
-        
-        <img src="img/game-development.jpg" />
-        <h6>Chuck Nokick</h6>
-        <p>Game Development</p>
-        
-        <img src="img/seo.jpg" />
-        <h6>Nganu SEO</h6>
-        <p>Search Engine Optimization & Marketing</p>
-        
-        <img src="img/web-design.jpg" />
-        <h6>Letoy Themes</h6>
-        <p>Web Design & Development</p>
-        
-        <img src="img/mobile-app.jpg" />
-        <h6>Screenr</h6>
-        <p>Mobile App</p>
-        
-        <img src="img/graphic-design.jpg" />
-        <h6>Koki Pil</h6>
-        <p>Graphics Design</p>
-        
-        <a href="#">View All Works</a>
+
+    <div class="work">
+        <div class="content">
+            <h3>Our Recent <span>Works</span></h3>
+            <p class="quote">&ldquo;Asperiores ea commodi eius a quo omnis esse&rdquo;</p>
+            <img class="spacer" src="img/spacer-dark.png" />
+
+            <div class="workHalf">
+                <img src="img/game-development.jpg" />
+                    <h6>Chuck Nokick</h6>
+                    <p>Game Development</p>
+            </div><div class="workHalf last">
+               
+                <img src="img/seo.jpg" />
+                <h6>Nganu SEO</h6>
+                <p>Search Engine Optimization & Marketing</p>
+            </div>
+
+            <div class="workThirds">
+                <img src="img/web-design.jpg" />
+                    <h6>Letoy Themes</h6>
+                    <p>Web Design & Development</p>
+            </div><div class="workThirds">
+            
+                <img src="img/mobile-app.jpg" />
+                <h6>Screenr</h6>
+                <p>Mobile App</p>
+            </div><div class="workThirds last">
+
+                <img src="img/graphic-design.jpg" />
+                <h6>Koki Pil</h6>
+                <p>Graphics Design</p>
+            </div>
+
+            <a href="#">View All Works</a>
+        </div>
     </div>
         
-    <div>
-        <img src="img/envato-logo.png" />  
-        <img src="img/themeforest.png" /> 
-        <img src="img/activeden-logo.png" /> 
-        <img src="img/3docean-logo.png" /> 
-        <img src="img/audiojungle-logo.png" /> 
-        <img src="img/codecanyon-logo.png" /> 
+    <div class="logoBar">
+        <ul>
+            <li><img src="img/envato-logo.png" /></li>
+            <li><img src="img/themeforest.png" /></li>
+            <li><img src="img/activeden-logo.png" /></li>
+            <li><img src="img/3docean-logo.png" /></li>
+            <li><img src="img/audiojungle-logo.png" /></li>
+            <li><img src="img/codecanyon-logo.png" /></li>
+        </ul>
     </div>
     
-    <div>
+    <div class="testimonial">
+        <img class="testimonialBanner" src="img/testimonial-banner.jpg" />
         <h4>Testimonials</h4>
         <p>Optio corporis fuga mollitia sit magni ut quasi consequuntur aut iste aspernatur totam similiue sint. Harum voluptas vero iste. itaque et in sit eveniet acusamus quibusdam cupiditate</p>
         <a href="#">Give Testimonials</a>
@@ -176,75 +210,89 @@ ti, ea maiores ullam nihil et</p>
         <p>thenextweb.com</p>    
     </div>
     
-    <div>
-        <h3>Blog</h3>
-        <p>“Asperiores ea commodi eius a quo omnis esse”</p>
-        <img src="img/spacer-dark.png" />
-        
-        <img src="img/blog1.jpg" />
-        <img src="img/earth-icon.png" />
-        <p>Web Design Fundamental</p>
-        <a href="#">Read More</a>
-        
-        <img src="img/blog2.jpg" />
-        <img src="img/blog-mobile-icon.png" />
-        <p>Native Apps VS Web Apps, What is the better choice</p>
-        <a href="#">Read More</a>
-        
-        <img src="img/blog3.jpg" />
-        <img src="img/blog-monitor-icon.png" />
-        <p>Not UI vs UX, It's UI & UX</p>
-        <a href="#">Read More</a>
-        
-        <img src="img/blog4.jpg" />
-        <img src="img/blog-graph-icon.png" />
-        <p>5 Quick Tips to get approved from Gogle Adsense</p>
-        <a href="#">Read More</a>
+    <div class="blog">
+        <div class="content">
+            <h3>Blog</h3>
+            <p class="quote">&ldquo;Asperiores ea commodi eius a quo omnis esse&rdquo;</p>
+            <img class="spacer" src="img/spacer-dark.png" />
+            
+            <div class="blogBlock">
+                <img src="img/blog1.jpg" />
+                <img class="blogIcon" src="img/earth-icon.png" />
+                <p>Web Design Fundamental</p>
+                <a href="#">Read More</a>
+            </div><div class="blogBlock">
+                
+                <img src="img/blog2.jpg" />
+                <img class="blogIcon" src="img/blog-mobile-icon.png" />
+                <p>Native Apps VS Web Apps, What is the better choice</p>
+                <a href="#">Read More</a>
+            </div><div class="blogBlock">
+                
+                <img src="img/blog3.jpg" />
+                <img class="blogIcon" src="img/blog-monitor-icon.png" />
+                <p>Not UI vs UX, It's UI & UX</p>
+                <a href="#">Read More</a>
+            </div><div class="blogBlock last">
+                
+                <img src="img/blog4.jpg" />
+                <img class="blogIcon" src="img/blog-graph-icon.png" />
+                <p>5 Quick Tips to get approved from Gogle Adsense</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
     </div>
     
-    <div>
+    <div class="newsletter">
         <p>Join Our Newsletter for article updates</p>
         <input type="text" placeholder="example@ipsum.com" />
         <img src="img/form-button-icon.png" />
     </div>
     
-    <div>
-    
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96985.46105637046!2d-96.1539061872618!3d41.25559954290486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87938e52d180bf11%3A0xef6ce23de3a5551f!2s1905+Harney+St%2C+Omaha%2C+NE+68102!5e0!3m2!1sen!2sus!4v1454292434376" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
     
-    <div>
-        <h4>Contact</h4>
-        <img src="img/spacer-white.png" />
-        
-        <label>
-            Name
-            <input type="text" placeholder="Carlos Shorter" name="name" />
-        </label>
-            
-        <label>
-            E-mail
-            <input type="email" placeholder="shortercarlos@gmail.com" name="email" />
-        </label>
-            
-        <label>
-            Message
-            <textarea placeholder="Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in you." name="message"></textarea>
-        </label>
-            
-        <button>Send</button>
+    <div class="contact">
+        <div class="content">
+            <h3>Contact</h3>
+            <img class="spacer" src="img/spacer-white.png" />
+            <form class="form">
+                <label>
+                    Name
+                    <input type="text" placeholder="Carlos Shorter" name="name" />
+                </label>
+
+                <label>
+                    E-mail
+                    <input type="email" placeholder="shortercarlos@gmail.com" name="email" />
+                </label>
+
+                <label>
+                    Message
+                    <textarea placeholder="Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in you." name="message"></textarea>
+                </label>
+
+                <button>Send</button>
+            </form>
+        </div>
     </div>
 
     <footer>
-        <p>&copy;Copyright 2014. All Rights Reserved</p>
-        
-        <img src="img/facebook-icon-white.png" />
-        <img src="img/twitter-icon-white.png" />
-        <img src="img/youtube-icon-white.png" />
-        <img src="img/dribble-icon-white.png" />
-        <img src="img/behance-icon-white.png" />
-        <img src="img/deviantart-icon-white.png" />
-        <img src="img/instagram-icon-white.png" />
-        <img src="img/linkedin-icon-white.png" />
+        <div class="footerContain">
+            <p>&copy;Copyright 2014. All Rights Reserved</p>
+
+            <ul>
+                <li><img src="img/facebook-icon-white.png" /></li>
+                <li><img src="img/twitter-icon-white.png" /></li>
+                <li><img src="img/youtube-icon-white.png" /></li>
+                <li><img src="img/dribble-icon-white.png" /></li>
+                <li><img src="img/behance-icon-white.png" /></li>
+                <li><img src="img/deviantart-icon-white.png" /></li>
+                <li><img src="img/instagram-icon-white.png" /></li>
+                <li><img src="img/linkedin-icon-white.png" /></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
