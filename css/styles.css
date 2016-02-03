@@ -1,54 +1,55 @@
 
 /***** Navigation *****/
 
-.nav {
+nav {
     height: 106px;
     background-color: #acd373;
+    line-height: 106px;
 }
-.nav nav {
-    max-width: 1000px;
+.navContain {
+    width: 1165px;
     margin: 0 auto;
 }
-.nav img {
+nav li {
     display: inline-block;
+    vertical-align: middle;
+    margin: 0 14px;
 }
-.nav ul {
-    text-align: right;
-}
-.nav ul li {
+nav img {
     display: inline-block;
-    vertical-align: top;
-    margin-right: 10px;
-    text-align: right;
+    vertical-align: middle;
 }
-.nav a {
+nav a {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
     font-size: 18px;
     color: #f7f7f7; 
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: .5px;
 }
-.nav li:hover {
-    border-bottom: 3px #f7f7f7 solid;
+nav li:hover {
+    text-decoration: underline;
 }
 
 /***** Header *****/
 
-.call {
+header {
     height:700px;
     background-color: #9abd67;
+    background-image: url("../img/skyline.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    text-align: center;
+    display: block;
 }
 h1 {
     font-family: 'source sans pro', sans-serif;
     font-size: 48px;
     font-weight: 900;
     color: #f7f7f7;
-    text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding-top: 200px;
+    padding-top: 230px;
 }
 h2 {
     font-family: 'droid serif', serif;
@@ -56,25 +57,33 @@ h2 {
     font-weight: 400;
     font-style: italic;
     color: #f7f7f7;
-    text-align: center;
     padding-top: 30px;
 }
-img.arrow {
-    display: block;
+header img {
     margin: 0 auto;
     padding-top: 130px;
-}
-.skyline {
-    width: 100%;
 }
 
 /***** About *****/
 .about {
     background-color: #f7f7f7;
     height: 575px;
+    background-image: url("/img/iphone.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
-.aboutContent {
-    max-width: 1000px;
+.aboutText {
+    width: 770px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 30px;
+}
+.aboutImg {
+    width: 395px;
+    display: inline-block;
+}
+.aboutImg img {
+    padding-right: 115px;
 }
 h3 {
     font-family: 'source sans pro', sans-serif;
@@ -83,17 +92,37 @@ h3 {
     color: #454545;
     text-transform: uppercase;
 }
+.about h3 {
+    display: inline-block;
+    line-height: 55px;
+    vertical-align: top;
+    margin-left: 23px;
+}
 p {
     font-family: 'source sans pro', sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #454545;
 }
+.about p {
+    padding-top: 25px;
+}
+.about p:nth-of-type(2) {
+    padding-bottom: 60px;
+}
 
 /***** Video Banner *****/
 
-.videoBanner, .testimonialBanner {
+.video {
+    background-image: url("../img/banner_1_with_overlay.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
     width: 100%;
+    height: 520px;
+    text-align: center;
+}
+.video img {
+    padding-top: 191px;
 }
 
 /***** Services *****/
@@ -128,8 +157,13 @@ h5 {
     font-weight: 600;
     color: #acd373;
     text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
 }
-.services a {
+.servicesBlock p {
+    display: inline-block;
+}
+.services a, .work a, .about a {
     font-family: 'droid serif', sans-serif;
     font-size: 18px;
     font-style: italic;
@@ -137,9 +171,7 @@ h5 {
     padding: 15px;
     border: solid #acd373 1px;
     text-transform: none;
-}
-.btn {
-    margin: 0 auto;
+    text-decoration: none;
 }
 .servicesBlock {
     width: 375px;
@@ -190,7 +222,8 @@ img.teamPic {
     height: 110px;
     background-color: #91bd67;
     text-align: center;
-    vertical-align: center;
+    vertical-align: middle;
+    line-height: 110px;
 }
 .jobBar p {
     font-family: 'source sans pro', sans-serif;
@@ -207,7 +240,8 @@ img.teamPic {
     color: #f7f7f7;
     padding: 10px;
     border: solid #f7f7f7 1px;
-    text-transform: none;    
+    text-transform: none;   
+    text-decoration: none;
 }
 
 /***** Recent Work *****/
@@ -217,13 +251,19 @@ img.teamPic {
 }
 .workHalf {
     width: 570px;
+    height: 370px;
     margin-right: 25px;
-    display: inline-block
+    display: inline-block;
+    background-color: #ebebeb;
 }
 .workThirds {
     width: 370px;
+    height: 290px;
+    margin-top: 30px;
     margin-right: 27.5px;
     display: inline-block;
+    background-color: #ebebeb;
+    margin-bottom: 94px;
 }
 h6 {
     font-family: 'sans source pro', sans-serif;
@@ -231,6 +271,7 @@ h6 {
     font-weight: 700;
     color: #454545;
     text-align: center;
+    padding-top: 20px;
 }
 .work p {
     font-family: 'droid serif', serif;
@@ -238,6 +279,7 @@ h6 {
     font-style: italic;
     color: #787878;
     text-align: center;
+    padding-top: 6px;
 }
 
 /***** Logo Bar *****/
@@ -245,24 +287,37 @@ h6 {
     height: 110px;
     background-color: #ebebeb;
     margin: 0 auto;
-}
-.logoBar ul {
+    line-height: 110px;
+    vertical-align: middle;
     text-align: center;
 }
+.logoBar li {
+    display: inline-block;
+}
 .logoBar img {
-    margin-right: 30px;
+    margin: 0 15px;
 }
 
 /***** Testimonials *****/
 
+.testimonial {
+    background-image: url("../img/testimonial-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 550px;
+}
+
 /***** Blog *****/
 .blog {
     background-color: #f7f7f7;
-    height: 
+    height: 690px;
 }
 .blogBlock {
     display: inline-block;
     width: 270px;
+    height: 335px;
+    background-color: #ebebeb;
     margin-right: 25px;
     vertical-align: top;
 }
@@ -276,6 +331,12 @@ img.blogIcon {
     font-weight: 600;
     color: #454545;
     text-align: center;
+    padding: 30px 12px 0 12px; 
+}
+.blog a {
+    background-color: #acd373;
+    display: block;
+    height: 50px;
 }
 
 /***** Newsletter *****/
@@ -288,13 +349,16 @@ img.blogIcon {
     margin-right: 50px;
 }
 .newsletter input {
-    height: 40px;
+    height: 37px;
     border: 1px solid #f7f7f7;
     font-family: 'droid serif', serif;
     font-size: 18px;
     background-color: #9abd67;
     font-style: italic;
     color: #f7f7f7;
+}
+.newsletter img {
+    vertical-align: middle;
 }
 
 /***** Map *****/
@@ -309,6 +373,9 @@ img.blogIcon {
     height: 750px;
     background-color: #acd373;
 }
+form {
+    margin: 0 auto;
+}
 .contact input, .contact textarea {
     display: block;
     width: 570px;
@@ -316,6 +383,10 @@ img.blogIcon {
     border: none;
     margin-top: 15px;
     margin-bottom: 30px; 
+    font-family: 'droid serif', serif;
+    font-size: 15px;
+    color: #f7f7f7;
+    font-style: italic;
 }
 .contact input {
     height: 40px;
@@ -345,6 +416,7 @@ button {
 footer {
     height: 100px;
     background-color: #9abd67;
+    line-height: 100px;
 }
 .footerContain {
     width: 1165px;
@@ -354,18 +426,24 @@ footer p {
     font-family: 'source sans pro', sans-serif;
     font-size: 18px;
     color: #f7f7f7;
+    display: inline-block;
+}
+footer li {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
-/***** Generic *****/
+/***** Universal *****/
 .content {
     max-width: 1165px;
     padding: 100px 0;
     margin: 0 auto;
 }
-
 .last {
     margin-right: 0;
 }
-
+.right {
+    float: right;
+}
 
