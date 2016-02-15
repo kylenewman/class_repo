@@ -30,6 +30,9 @@ nav a {
 nav li:hover {
     text-decoration: underline;
 }
+.hamMenu {
+    display: none;
+}
 
 /***** Header *****/
 
@@ -69,9 +72,9 @@ header img {
 .about {
     background-color: #f7f7f7;
     height: 575px;
-    background-image: url("/img/iphone.png");
+    background-image: url("../img/iphone.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 1026px;
 }
 .about .content {
     padding-top: 87px;
@@ -306,6 +309,9 @@ img.teamPic {
     display: inline-block;
     background-color: #ebebeb;
 }
+.workHalf h6 {
+    text-transform: uppercase;
+}
 .workThirds {
     width: 370px;
     height: 300px;
@@ -333,6 +339,7 @@ h6 {
 }
 .workThirds h6 {
     padding-top: 25px;
+    text-transform: uppercase;
 }
 .work .spacer {
     padding-bottom: 68px;
@@ -349,13 +356,11 @@ h6 {
 }
 .logoBar li {
     display: inline-block;
-    line-height: 110px;
     vertical-align: middle;
 }
 .logoBar img {
     margin: 0 22px;
     vertical-align: middle;
-
 }
 
 /***** Testimonials *****/
@@ -436,6 +441,11 @@ h6 {
     text-align: center;
     vertical-align: top;
     margin-right: 26px;
+}
+.testQuote img:nth-of-type(2){
+    width: 55px;
+    padding-top: 42px;
+    padding-left: 337px;
 }
 .slider {
     padding-left: 736px;
