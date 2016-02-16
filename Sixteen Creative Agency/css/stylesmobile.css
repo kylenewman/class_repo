@@ -315,6 +315,7 @@
         margin: 0 auto;
         display: block;
         padding-top: 21px;
+        padding-left: 0;
     }
     .blockQuote p {
         font-size: 12px;
